@@ -10,10 +10,10 @@ const HomePage = () => {
   return (
     <>
       <Hero />
-      <WhyChooseUs />
+      {/* <WhyChooseUs />
       <AboutUs />
       <Benefits />
-      <Testimonials />
+      <Testimonials /> */}
       {/* <CallToAction /> */}
     </>
   )

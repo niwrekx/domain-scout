@@ -8,17 +8,16 @@ const MainLayout = () => {
 
   const location = useLocation();
   
-  // const isDashboard = location.pathname === dashboardLink
-  // const isDashboard = dashboardPages.includes(location.pathname)
+
 
 
   return (
     <div className=''>
-        {/* {!isDashboard &&<Navbar />} */}
+     
         <Navbar />
         <Outlet />
         <Footer />
-        {/* {!isDashboard && <Footer />} */}
+
     </div>
   )
 }
